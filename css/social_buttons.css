@@ -1,0 +1,183 @@
+/***** Social Buttons *****/
+
+/* Facebook */
+
+.fb-btn {
+    background-color: #3b5998;
+}
+
+.fb-btn:hover {
+    data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="slide-out-right"
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.fb-btn:active,
+.fb-btn:focus {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+    box-shadow: none;
+}
+
+/* Facebook */
+
+/* Youtube */
+
+.yt-btn {
+    background-color: #FF0000;
+}
+
+.yt-btn:hover {
+    color: #fff;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.yt-btn:active,
+.yt-btn:focus {
+    color: #fff;
+    background-color: #FF0000;
+    border-color: #FF0000;
+    box-shadow: none;
+}
+
+/* Youtube */
+
+
+/* Instagram */
+.ins-btn {
+    background-color: #ac2bac;
+}
+
+.ins-btn:hover {
+    color: #fff;
+    background-color: #ac2bac;
+    border-color: #ac2bac;
+}
+
+.ins-btn:active,
+.ins-btn:focus {
+    color: #fff;
+    background-color: #ac2bac;
+    border-color: #ac2bac;
+    box-shadow: none;
+}
+
+/* Instagram */
+
+/* Whatsapp */
+
+.whatsapp-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.whatsapp-icon:hover {
+    color: #fff;
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.whatsapp-icon:active,
+.whatsapp-icon:focus {
+    color: #fff;
+    background-color: #25d366;
+    border-color: #25d366;
+    box-shadow: none;
+}
+
+/* Whatsapp */
+
+/***** Social Buttons *****/
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #e45888;
+}
+
+.navbar-text {
+    color: #ffffff;
+}
+
+/*Navbar*/
+
+/* Jumbotron */
+
+.btn-buy {
+    color: #ffffff;
+    background-color: #6f4349;
+}
+
+/* Jumbotron */
+
+/*Footer*/
+
+.color-footer {
+    color: #4f1a30;
+}
+
+.footer-top {
+    background-color: #e9bad0;
+}
+
+.footer-bottom {
+    background-color: #e45888;
+}
+
+.color-button-text {
+    color: #4f1a30;
+}
+
+.color-links-text {
+    color: #4f1a30;
+}
+
+/*Footer*/
+
+/* Page */
+.back-color {
+    background-color: #fbecf3;
+}
+
+/* Page */
+
+
+/*Link Hover*/
+
+#nav-links .navbar-nav>li>a:hover {
+    color: #f9b95e;
+}
+
+li>a:hover {
+    color: #F50057;
+}
+
+/*Link Hover*/
+
+/* Estilos CSS para mejorar la apariencia de headers */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Belette</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/belette_favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/social_buttons.css">
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Start your project here-->
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div id="nav-links" class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="img/belette_brand.png" height="35" alt="MDB Logo" loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-text" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-text" href="desserts.html">Comprar postres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-text" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <a class="text-reset me-3" href="#">
+                    <i class="fas fa-shopping-cart text-white"></i>
+                </a>
+
+                <!-- Notifications -->
+                <div class="dropdown">
+                    <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bell text-white"></i>
+                        <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="#">Some news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Another news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Avatar -->
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                            alt="Black and White Portrait of a Man" loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">Mi perfil</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Ajustes</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Cerrar sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+
+
+    <!-- Jumbotron -->
+    <div class="container-fluid p-5 text-center back-color">
+        <img src="img/belette_logo_brand2.png" class="img-fluid" />
+        <p>
+            <a class="btn btn-primary btn-buy" href="desserts.html" role="button">Comprar</a>
+        </p>
+    </div>
+    <!-- Jumbotron -->
+
+
+    <section class="">
+        <div class="container-fluid row back-color d-flex justify-content-center">
+            <div class="row p-4">
+                <h1 class="text-center pb-3"><strong>Políticas de entrega</strong></h1>
+
+                <h2>Proceso de entrega</h2>
+                <p>Contamos con servicio de entregas, el cual se realiza en horarios de 7:00 pm a 11:00 pm
+                    de lunes a viernes. En caso de requerir una entrega en un horario distinto, por favor contáctanos
+                    para verificar la disponibilidad.</p>
+
+                <h2>Condiciones de entrega</h2>
+                <p>Es necesario que se realicen pedidos que superen los $150.00 MXN y haya alguien en la dirección de
+                    entrega para recibir el pedido. En caso de que no sea posible, por favor contáctanos para acordar
+                    una ubicación específica donde podamos dejar el pedido.</p>
+
+                <h2>Zonas de entrega</h2>
+                <p>Actualmente, realizamos entregas en las siguientes zonas:</p>
+                <p>
+                <div>
+                    <ul>
+                        <li>Zona A: costo de envío de $50.00</li>
+                        <li>Zona B: costo de envío de $75.00</li>
+                        <li>Zona C: costo de envío de $100.00</li>
+                    </ul>
+                </div>
+                </p>
+
+                <h2>Tiempos de entrega</h2>
+                <p>Los tiempos de entrega varían dependiendo de la zona:</p>
+                <p>
+                <div>
+                    <ul>
+                        <li>Zona A: 10 minutos</li>
+                        <li>Zona B: 20 minutos</li>
+                        <li>Zona C: 30 minutos</li>
+                    </ul>
+                </div>
+                </p>
+
+                <h2>Costos de envío</h2>
+                <p>Para los pedidos que superen los $500.00 MXN, la entrega será gratuita. Para los pedidos menores a
+                    esta cantidad, se aplicará el costo de envío correspondiente a la zona de entrega.</p>
+
+                <h2>Políticas de devolución</h2>
+                <p>Si por alguna razón el producto no cumple con tus expectativas, puedes
+                    solicitar una devolución o cambio en un plazo máximo de 2 días a partir de la fecha de entrega. Para
+                    ello, es necesario que nos contactes vía correo electrónico o teléfono para indicarnos el motivo de
+                    la devolución y acordar los detalles.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-light text-center color-footer footer-top">
+        <!-- Grid container -->
+        <div class="container-fluid p-4 footer-top">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1 fb-btn wow fadeInRight" data-wow-delay="0.3s" href="#!"
+                    role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Youtube -->
+                <a class="btn btn-primary btn-floating m-1 yt-btn" href="#!" role="button"><i
+                        class="fab fa-youtube"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1 ins-btn" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form id="signup-form">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Suscríbete a nuestro boletín</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="email-input" class="form-control" />
+                                <label class="form-label" for="email-input">Correo electrónico</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn color-button-text btn-outline-light mb-4">
+                                Suscribirse
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                    <p id="message" class="text-danger"></p>
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    ¿Quieres estar al día con nuestras últimas noticias y promociones exclusivas?
+                    ¡No te pierdas ninguna actualización!, suscríbete a nuestro boletín para recibir todas las noticias,
+                    ofertas y
+                    promociones directamente en tu bandeja de entrada.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links de Interés</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="contact.html" class="color-links-text">Contáctanos</a>
+                            </li>
+                            <li>
+                                <a href="privacy_policy.html" class="color-links-text">Política de Privacidad</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="color-links-text">Políticas de Entrega</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Información</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="color-links-text">Teléfono: +525511223344</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="color-links-text">servicioalcliente@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="color-links-text">CDMX, Iztapalapa</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3 footer-bottom">
+            ® 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- End your project here-->
+
+
+
+
+
+
+
+
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/newsletter.js"></script>
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+    <script type="text/javascript" src="js/chat.js"></script>
+</body>
+
+</html>
